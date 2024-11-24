@@ -3,7 +3,7 @@ import threading
 
 # 서버 설정
 SERVER_IP = '0.0.0.0'
-SERVER_PORT = 8080
+SERVER_PORT = 8000
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind((SERVER_IP, SERVER_PORT))
